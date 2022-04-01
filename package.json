@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/assert-is-binary-string",
+  "version": "0.0.0",
+  "description": "Test if a value is a binary string.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-binary-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "is",
+    "binary",
+    "string",
+    "isstring",
+    "isbinary",
+    "binarystring",
+    "isvalid",
+    "check"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
