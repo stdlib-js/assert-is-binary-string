@@ -167,16 +167,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-binary-string-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-binary-string-cli
 
-[test-image]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/assert-is-binary-string/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/assert-is-binary-string/actions/workflows/test.yml?query=branch:v0.1.1
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-binary-string@v0.1.1/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-binary-string@v0.1.1?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-binary-string/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-binary-string?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-binary-string@v0.1.1.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-binary-string@v0.1.1/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-binary-string.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-binary-string/main
 
 -->
 
@@ -187,19 +187,19 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1#cli
-[cli-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/tree/cli
-[@stdlib/assert-is-binary-string]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/tree/main
+[cli-section]: https://github.com/stdlib-js/assert-is-binary-string#cli
+[cli-url]: https://github.com/stdlib-js/assert-is-binary-string/tree/cli
+[@stdlib/assert-is-binary-string]: https://github.com/stdlib-js/assert-is-binary-string/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/tree/deno
-[umd-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/tree/umd
-[esm-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/tree/esm
-[branches-url]: https://github.com/stdlib-js/assert-is-binary-string@v0.1.1/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/assert-is-binary-string/tree/deno
+[umd-url]: https://github.com/stdlib-js/assert-is-binary-string/tree/umd
+[esm-url]: https://github.com/stdlib-js/assert-is-binary-string/tree/esm
+[branches-url]: https://github.com/stdlib-js/assert-is-binary-string/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-binary-string@v0.1.1/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-binary-string/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
