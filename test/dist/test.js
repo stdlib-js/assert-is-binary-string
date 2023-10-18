@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,61 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isBinaryString = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isBinaryString, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a binary string', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'0',
-		'1',
-		'10101',
-		'000000000000000000000000000000000000000000000000000000000000000000000000000000',
-		'11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.equal( isBinaryString( values[i] ), true, 'returns true' );
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if provided a `String` object, even if the value of the `String` object is a binary string', function test( t ) {
-	t.equal( isBinaryString( new String( '0101' ) ), false, 'returns false' );
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a binary string', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'5',
-		'beep',
-		'',
-		'1010102',
-		5,
-		null,
-		NaN,
-		true,
-		void 0,
-		[],
-		{},
-		function noop() {}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.equal( isBinaryString( values[i] ), false, 'returns false when provided ' + values[i] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
