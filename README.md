@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-binary-string@esm/index.mjs';
+import isBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-binary-string@v0.2.2-esm/index.mjs';
 ```
 
 #### isBinaryString( value )
@@ -76,7 +76,7 @@ bool = isBinaryString( '' );
 <body>
 <script type="module">
 
-import isBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-binary-string@esm/index.mjs';
+import isBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-binary-string@v0.2.2-esm/index.mjs';
 
 var bool = isBinaryString( '1' );
 // returns true
